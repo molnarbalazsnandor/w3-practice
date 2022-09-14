@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.top-circle {
+  top: 0;
+}
+
+.left-circle {
+  left: 0;
+}
+
+.right-circle {
+  right: 0;
+}
+
+.bottom-circle {
+  bottom: 0;
+}
