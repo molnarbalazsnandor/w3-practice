@@ -72,3 +72,5 @@ rootElement.insertAdjacentHTML("beforeend", "hello World");
 
 window.addEventListener("load",loadEvent);
 /* figyel egy eseményt: amint betölt az oldal, lefuttatja a loadEvent függvényt*/
+
+/* JS tipp: const-ot érdemes használni, aztán ha mégis módosulna, akkor let-tel */
