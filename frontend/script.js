@@ -1,9 +1,10 @@
 function loadEvent() {
     const NewCatButton = document.querySelector(".add-cat");
     NewCatButton.addEventListener("click", function(){
-        const CatContainer = document.querySelector(".cats");
-        const NewCat = `<img src="https://cataas.com/cat" alt="" />`;
-        CatContainer.innerHTML+=NewCat;
+        const catContainer = document.querySelector(".cats");
+        const currentTime = new Date().getTime();
+        const newCat = `<img src="https://cataas.com/cat?random=${currentTime}" alt="" />`;
+        catContainer.insertAdjacentHTML("beforeend", newCat);
     })
 };
 

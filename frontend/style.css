@@ -40,3 +40,14 @@ select {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.add-cat {
+  background-color: #818381;
+  border: 10px;
+  border-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
