@@ -1,41 +1,42 @@
+/* --- start of CSS reset --- */
 * {
   margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
 }
-
-.root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
+a {
+  text-decoration: none;
 }
+a img {
+  border: none;
+}
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+textarea {
+  resize: none;
+}
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+} /* --- end of CSS reset --- */
 
-.box {
+.cats img {
   width: 200px;
-  height: 300px;
-  border: 1px solid black;
+  height: auto;
+  margin: 10px;
 }
 
-.circle {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.top-circle {
-  top: 0;
-}
-
-.left-circle {
-  left: 0;
-}
-
-.right-circle {
-  right: 0;
-}
-
-.bottom-circle {
-  bottom: 0;
+.cats {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
